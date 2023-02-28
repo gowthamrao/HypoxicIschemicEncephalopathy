@@ -5,6 +5,7 @@ atlasId,cohortId,id,cohortName
 1781960,1781960,1781960,[PhePheb] HIE Dx (component to eval)
 1781962,1781962,1781962,[PhePheb] HIE - Enceph AND (HypoT as Condn Rx or Mmt) - (component to eval)
 1781969,1781969,1781969,[PhePheb] HIE - Enceph AND (HypoT as Cdn OR Rx OR Mmt) AND (Echo + Een)
+1781972,1781972,1781972,"[PhePheb] HIE - Enceph AND (HypoT as Cdn OR Rx OR Mmt) AND (Echo + Een) AND NOT (HIE, ABI, Induct)"
 1781966,1781966,1781966,[PhePheb] HIE - HIE Dx OR Perinatal Anox-Isch BI Dx OR induction of HypoT (eval as candidate)
 1781974,1781974,1781974,[PhePheb] HIE - HIE Dx OR Peri ABI OR induction of HypoT OR (Enceph AND HypoT) (eval as candidate)
 1781975,1781975,1781975,[PhePheb] HIE - HIE Dx OR Peri ABI OR induct HypoT OR (Encep AND HypoT AND Proc) (eval as candidate)
