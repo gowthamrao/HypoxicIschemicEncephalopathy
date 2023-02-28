@@ -497,7 +497,7 @@
       "Type": "ANY",
       "DemographicCriteriaList": [{"Age": {
         "Op": "bt",
-        "Extent": 0.02,
+        "Extent": 0.020000000000000000416334,
         "Value": 0
       }}],
       "Groups": []

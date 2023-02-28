@@ -47,67 +47,265 @@
       "id": 0
     },
     {
-      "expression": {"items": [{
-        "isExcluded": false,
-        "concept": {
-          "INVALID_REASON_CAPTION": "Valid",
-          "CONCEPT_ID": 3020891,
-          "STANDARD_CONCEPT": "S",
-          "CONCEPT_CODE": "8310-5",
-          "VOCABULARY_ID": "LOINC",
-          "CONCEPT_NAME": "Body temperature",
-          "DOMAIN_ID": "Measurement",
-          "STANDARD_CONCEPT_CAPTION": "Standard",
-          "CONCEPT_CLASS_ID": "Clinical Observation",
-          "INVALID_REASON": "V"
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4203429,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "308693008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Induction of hypothermia",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
         },
-        "includeMapped": false,
-        "includeDescendants": true
-      }]},
-      "name": "[PhePheb] HIE -Body Temperature Measurement",
-      "id": 5
-    },
-    {
-      "expression": {"items": [{
-        "isExcluded": false,
-        "concept": {
-          "INVALID_REASON_CAPTION": "Valid",
-          "CONCEPT_ID": 435371,
-          "STANDARD_CONCEPT": "S",
-          "CONCEPT_CODE": "386689009",
-          "VOCABULARY_ID": "SNOMED",
-          "CONCEPT_NAME": "Hypothermia",
-          "DOMAIN_ID": "Condition",
-          "STANDARD_CONCEPT_CAPTION": "Standard",
-          "CONCEPT_CLASS_ID": "Clinical Finding",
-          "INVALID_REASON": "V"
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4218726,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "81643004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Induction and maintenance of regional hypothermia",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
         },
-        "includeMapped": false,
-        "includeDescendants": true
-      }]},
-      "name": "[PhePheb] HIE - condn occurrence Hypothermia",
-      "id": 7
-    },
-    {
-      "expression": {"items": [{
-        "isExcluded": false,
-        "concept": {
-          "INVALID_REASON_CAPTION": "Valid",
-          "CONCEPT_ID": 4296384,
-          "STANDARD_CONCEPT": "S",
-          "CONCEPT_CODE": "386329003",
-          "VOCABULARY_ID": "SNOMED",
-          "CONCEPT_NAME": "Treatment of hypothermia",
-          "DOMAIN_ID": "Procedure",
-          "STANDARD_CONCEPT_CAPTION": "Standard",
-          "CONCEPT_CLASS_ID": "Procedure",
-          "INVALID_REASON": "V"
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4086433,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "241741007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Active cooling of patient",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
         },
-        "includeMapped": false,
-        "includeDescendants": true
-      }]},
-      "name": "[PhePheb] HIE - Rx of Hypothermia",
-      "id": 8
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4141648,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "266695002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Induction of hypothermia with hypotension",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4223373,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "84197004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Gastric freezing",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4080952,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "182663008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Gastric cooling therapy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4062748,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1713004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Induction and maintenance of total body hypothermia",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42742500,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "0260T",
+            "VOCABULARY_ID": "CPT4",
+            "CONCEPT_NAME": "Total body systemic hypothermia, per day, in the neonate 28 days of age or younger (Deprecated)",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "CPT4",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4082240,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "182661005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Local cooling therapy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4013008,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "103730004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cryocardioplegia",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4329655,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "431917004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Active core cooling of subject",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4021930,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "105382002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cooling the patient",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4093896,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "26004008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Induction of systemic hypothermia in open heart surgery",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42538846,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "762679005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Perioperative induction of hypothermia",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4075957,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "225125000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Scalp cooling",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        }
+      ]},
+      "name": "[PhePheb] HIE - Induction of hypothermia",
+      "id": 12
     },
     {
       "expression": {"items": [
@@ -538,70 +736,7 @@
         }
       ]},
       "name": "[PhePheb] HIE - Encephalopathy possibly due to hypoxia (broad)",
-      "id": 9
-    },
-    {
-      "expression": {"items": [{
-        "isExcluded": false,
-        "concept": {
-          "INVALID_REASON_CAPTION": "Valid",
-          "CONCEPT_ID": 2313869,
-          "STANDARD_CONCEPT": "S",
-          "CONCEPT_CODE": "93306",
-          "VOCABULARY_ID": "CPT4",
-          "CONCEPT_NAME": "Echocardiography, transthoracic, real-time with image documentation (2D), includes M-mode recording, when performed, complete, with spectral Doppler echocardiography, and with color flow Doppler echocardiography",
-          "DOMAIN_ID": "Procedure",
-          "STANDARD_CONCEPT_CAPTION": "Standard",
-          "CONCEPT_CLASS_ID": "CPT4",
-          "INVALID_REASON": "V"
-        },
-        "includeMapped": false,
-        "includeDescendants": false
-      }]},
-      "name": "[PhePheb] HIE - Neonatal Echo Procedure",
-      "id": 10
-    },
-    {
-      "expression": {"items": [{
-        "isExcluded": false,
-        "concept": {
-          "INVALID_REASON_CAPTION": "Valid",
-          "CONCEPT_ID": 4176414,
-          "STANDARD_CONCEPT": "S",
-          "CONCEPT_CODE": "51006009",
-          "VOCABULARY_ID": "SNOMED",
-          "CONCEPT_NAME": "Echoencephalography",
-          "DOMAIN_ID": "Procedure",
-          "STANDARD_CONCEPT_CAPTION": "Standard",
-          "CONCEPT_CLASS_ID": "Procedure",
-          "INVALID_REASON": "V"
-        },
-        "includeMapped": false,
-        "includeDescendants": true
-      }]},
-      "name": "[PhePheb] HIE - echoencephalography",
-      "id": 11
-    },
-    {
-      "expression": {"items": [{
-        "isExcluded": false,
-        "concept": {
-          "INVALID_REASON_CAPTION": "Valid",
-          "CONCEPT_ID": 2211351,
-          "STANDARD_CONCEPT": "S",
-          "CONCEPT_CODE": "70551",
-          "VOCABULARY_ID": "CPT4",
-          "CONCEPT_NAME": "Magnetic resonance (eg, proton) imaging, brain (including brain stem); without contrast material",
-          "DOMAIN_ID": "Procedure",
-          "STANDARD_CONCEPT_CAPTION": "Standard",
-          "CONCEPT_CLASS_ID": "CPT4",
-          "INVALID_REASON": "V"
-        },
-        "includeMapped": false,
-        "includeDescendants": false
-      }]},
-      "name": "[PhePheb] HIE - JHU Neonatal MRI",
-      "id": 12
+      "id": 13
     }
   ],
   "EndStrategy": {"DateOffset": {
@@ -634,7 +769,7 @@
       },
       "Criteria": {"ConditionOccurrence": {
         "ConditionTypeExclude": false,
-        "CodesetId": 9
+        "CodesetId": 13
       }},
       "Occurrence": {
         "Type": 2,
@@ -654,7 +789,7 @@
         "Type": "ALL",
         "DemographicCriteriaList": [{"Age": {
           "Op": "bt",
-          "Extent": 0.02,
+          "Extent": 0.020000000000000000416334,
           "Value": 0
         }}],
         "Groups": []
@@ -663,214 +798,42 @@
     },
     {
       "expression": {
-        "CriteriaList": [
-          {
-            "RestrictVisit": false,
-            "StartWindow": {
-              "UseEventEnd": false,
-              "Start": {"Coeff": -1},
-              "End": {
-                "Days": 0,
-                "Coeff": 1
-              },
-              "UseIndexEnd": true
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {"Coeff": -1},
+            "End": {
+              "Days": 0,
+              "Coeff": -1
             },
-            "IgnoreObservationPeriod": false,
-            "EndWindow": {
-              "UseEventEnd": false,
-              "Start": {
-                "Days": 0,
-                "Coeff": -1
-              },
-              "End": {"Coeff": 1},
-              "UseIndexEnd": false
-            },
-            "Criteria": {"ConditionOccurrence": {
-              "ConditionTypeExclude": false,
-              "CodesetId": 7
-            }},
-            "Occurrence": {
-              "Type": 2,
-              "IsDistinct": false,
-              "Count": 1
-            }
+            "UseIndexEnd": true
           },
-          {
-            "RestrictVisit": false,
-            "StartWindow": {
-              "UseEventEnd": false,
-              "Start": {"Coeff": -1},
-              "End": {
-                "Days": 0,
-                "Coeff": 1
-              },
-              "UseIndexEnd": true
+          "IgnoreObservationPeriod": false,
+          "EndWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 0,
+              "Coeff": 1
             },
-            "IgnoreObservationPeriod": false,
-            "EndWindow": {
-              "UseEventEnd": false,
-              "Start": {
-                "Days": 0,
-                "Coeff": -1
-              },
-              "End": {"Coeff": 1},
-              "UseIndexEnd": false
-            },
-            "Criteria": {"ProcedureOccurrence": {
-              "CodesetId": 8,
-              "ProcedureTypeExclude": false
-            }},
-            "Occurrence": {
-              "Type": 2,
-              "IsDistinct": false,
-              "Count": 1
-            }
+            "End": {"Coeff": 1},
+            "UseIndexEnd": false
           },
-          {
-            "RestrictVisit": false,
-            "StartWindow": {
-              "UseEventEnd": false,
-              "Start": {"Coeff": -1},
-              "End": {
-                "Days": 0,
-                "Coeff": 1
-              },
-              "UseIndexEnd": true
-            },
-            "IgnoreObservationPeriod": false,
-            "EndWindow": {
-              "UseEventEnd": false,
-              "Start": {
-                "Days": 0,
-                "Coeff": 1
-              },
-              "End": {"Coeff": 1},
-              "UseIndexEnd": false
-            },
-            "Criteria": {"Measurement": {
-              "MeasurementTypeExclude": false,
-              "CodesetId": 5,
-              "ValueAsNumber": {
-                "Op": "bt",
-                "Extent": 34.5,
-                "Value": 25
-              }
-            }},
-            "Occurrence": {
-              "Type": 2,
-              "IsDistinct": false,
-              "Count": 4
-            }
+          "Criteria": {"ProcedureOccurrence": {
+            "CodesetId": 12,
+            "ProcedureTypeExclude": false
+          }},
+          "Occurrence": {
+            "Type": 2,
+            "IsDistinct": false,
+            "Count": 1
           }
-        ],
-        "Type": "ANY",
+        }],
+        "Type": "ALL",
         "DemographicCriteriaList": [],
         "Groups": []
       },
-      "name": "Condn Occurrence hypothermia OR Rx Hypothermia OR Sustained Temp less than 34.5"
-    },
-    {
-      "expression": {
-        "CriteriaList": [
-          {
-            "RestrictVisit": false,
-            "StartWindow": {
-              "UseEventEnd": false,
-              "Start": {"Coeff": -1},
-              "End": {
-                "Days": 3,
-                "Coeff": 1
-              },
-              "UseIndexEnd": false
-            },
-            "IgnoreObservationPeriod": false,
-            "EndWindow": {
-              "UseEventEnd": false,
-              "Start": {
-                "Days": 0,
-                "Coeff": -1
-              },
-              "End": {"Coeff": 1},
-              "UseIndexEnd": false
-            },
-            "Criteria": {"ProcedureOccurrence": {
-              "CodesetId": 10,
-              "ProcedureTypeExclude": false
-            }},
-            "Occurrence": {
-              "Type": 2,
-              "IsDistinct": false,
-              "Count": 1
-            }
-          },
-          {
-            "RestrictVisit": false,
-            "StartWindow": {
-              "UseEventEnd": false,
-              "Start": {"Coeff": -1},
-              "End": {
-                "Days": 3,
-                "Coeff": 1
-              },
-              "UseIndexEnd": false
-            },
-            "IgnoreObservationPeriod": false,
-            "EndWindow": {
-              "UseEventEnd": false,
-              "Start": {
-                "Days": 0,
-                "Coeff": -1
-              },
-              "End": {"Coeff": 1},
-              "UseIndexEnd": false
-            },
-            "Criteria": {"ProcedureOccurrence": {
-              "CodesetId": 11,
-              "ProcedureTypeExclude": false
-            }},
-            "Occurrence": {
-              "Type": 2,
-              "IsDistinct": false,
-              "Count": 1
-            }
-          },
-          {
-            "RestrictVisit": false,
-            "StartWindow": {
-              "UseEventEnd": false,
-              "Start": {
-                "Days": 5,
-                "Coeff": 1
-              },
-              "End": {"Coeff": 1},
-              "UseIndexEnd": false
-            },
-            "IgnoreObservationPeriod": false,
-            "EndWindow": {
-              "UseEventEnd": false,
-              "Start": {"Coeff": -1},
-              "End": {
-                "Days": 0,
-                "Coeff": 1
-              },
-              "UseIndexEnd": true
-            },
-            "Criteria": {"ProcedureOccurrence": {
-              "CodesetId": 12,
-              "ProcedureTypeExclude": false
-            }},
-            "Occurrence": {
-              "Type": 2,
-              "IsDistinct": false,
-              "Count": 1
-            }
-          }
-        ],
-        "Type": "ANY",
-        "DemographicCriteriaList": [],
-        "Groups": []
-      },
-      "name": "Echo in first 3d OR Echoenceph in first 3d OR MRI after 5d"
+      "name": "Induction of Hypothermia"
     }
   ],
   "PrimaryCriteria": {

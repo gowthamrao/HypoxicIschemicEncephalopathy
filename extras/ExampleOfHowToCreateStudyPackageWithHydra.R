@@ -19,15 +19,17 @@ description <- "Cohort diagnostics on Hypoxic Ischemic Encephalopathy"
 baseUrl <- "https://api.ohdsi.org/WebAPI"
 cohortIdsToExport <-
   ROhdsiWebApi::getCohortDefinitionsMetaData(baseUrl = baseUrl)
+
+cohortIds <- c(1781956, 1781968, 1781973, 1781968,
+               1781960, 1781957, 1781958, 1781962,
+               1781967, 1781978, 1781977, 1781969, 
+               1781962, 1781966, 1781974, 1781975,
+               1781976)
 studyCohorts <- cohortIdsToExport |>
-  dplyr::filter(stringr::str_detect(
-    string = name,
-    pattern = stringr::fixed("[PhePheb] HIE")
-  ))
+  dplyr::filter(id %in% c(cohortIds))
 
 
 library(magrittr)
-cohortIds <- studyCohorts$id
 
 
 # compile them into a data table

@@ -342,84 +342,58 @@
       "id": 1
     },
     {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 45766189,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "703300001",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Hypoxic ischemic encephalopathy",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[PhePheb] HIE - HIE only",
+      "id": 3
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 374748,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "126945001",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Perinatal anoxic-ischemic brain injury",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      }]},
+      "name": "[PhePheb] HIE - Perinatal anoxic BI",
+      "id": 4
+    },
+    {
       "expression": {"items": [
         {
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 45766192,
+            "CONCEPT_ID": 4014474,
             "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "703303004",
+            "CONCEPT_CODE": "169925009",
             "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Severe hypoxic ischemic encephalopathy",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 443254,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "275368005",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Labor fetal anoxia",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 36716763,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "722937002",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Birth asphyxia co-occurrent with metabolic acidemia of cord blood",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4234097,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "90108007",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Fetal OR intrauterine anoxia AND/OR hypoxia not clear if noted before OR after onset of labor in liveborn infant",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4171102,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "276570006",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Perinatal hypoxia and asphyxia",
+            "CONCEPT_NAME": "Apgar at 10 minutes = 2",
             "DOMAIN_ID": "Condition",
             "STANDARD_CONCEPT_CAPTION": "Standard",
             "CONCEPT_CLASS_ID": "Clinical Finding",
@@ -427,57 +401,6 @@
           },
           "includeMapped": false,
           "includeDescendants": true
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4267574,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "62714009",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Fetal OR intrauterine anoxia AND/OR hypoxia first noted during labor AND/OR delivery in liveborn infant",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 42535006,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "134811000119108",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Severe hypoxic ischemic encephalopathy of newborn",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 442631,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "63814006",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Abnormal cerebral signs in the newborn",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
         },
         {
           "isExcluded": false,
@@ -500,579 +423,86 @@
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4088036,
+            "CONCEPT_ID": 4014578,
             "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "24388001",
+            "CONCEPT_CODE": "169928006",
             "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Apgar score 5",
+            "CONCEPT_NAME": "Apgar at 10 minutes = 5",
             "DOMAIN_ID": "Condition",
             "STANDARD_CONCEPT_CAPTION": "Standard",
             "CONCEPT_CLASS_ID": "Clinical Finding",
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4084430,
+            "CONCEPT_ID": 4014307,
             "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "281509000",
+            "CONCEPT_CODE": "169910009",
             "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Hypoxic-ischemic coma",
+            "CONCEPT_NAME": "Apgar at 5 minutes = 0",
             "DOMAIN_ID": "Condition",
             "STANDARD_CONCEPT_CAPTION": "Standard",
             "CONCEPT_CLASS_ID": "Clinical Finding",
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 45766191,
+            "CONCEPT_ID": 4014473,
             "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "703302009",
+            "CONCEPT_CODE": "169923002",
             "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Moderate hypoxic ischemic encephalopathy",
+            "CONCEPT_NAME": "Apgar at 10 minutes = 0",
             "DOMAIN_ID": "Condition",
             "STANDARD_CONCEPT_CAPTION": "Standard",
             "CONCEPT_CLASS_ID": "Clinical Finding",
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 45766189,
+            "CONCEPT_ID": 4016055,
             "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "703300001",
+            "CONCEPT_CODE": "169913006",
             "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Hypoxic ischemic encephalopathy",
+            "CONCEPT_NAME": "Apgar at 5 minutes = 3",
             "DOMAIN_ID": "Condition",
             "STANDARD_CONCEPT_CAPTION": "Standard",
             "CONCEPT_CLASS_ID": "Clinical Finding",
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 42597294,
+            "CONCEPT_ID": 4014312,
             "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "321301000009100",
-            "VOCABULARY_ID": "SNOMED Veterinary",
-            "CONCEPT_NAME": "Hypoxic-ischemic encephalopathy",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4290019,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "37145001",
+            "CONCEPT_CODE": "169924008",
             "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Central nervous system dysfunction in newborn",
+            "CONCEPT_NAME": "Apgar at 10 minutes = 1",
             "DOMAIN_ID": "Condition",
             "STANDARD_CONCEPT_CAPTION": "Standard",
             "CONCEPT_CLASS_ID": "Clinical Finding",
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4318860,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "95631006",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Drowsiness of the newborn",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4318859,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "95628005",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Neonatal encephalopathy",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4130036,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "126944002",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Brain damage due to hypoxia",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4306575,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "389101006",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Anoxic-ischemic encephalopathy",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 45766194,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "703305006",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Hypoxic ischemic encephalopathy due to cardiac arrest",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4309154,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "213208008",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Anoxic brain damage complication",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 42535008,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "134831000119103",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Mild hypoxic ischemic encephalopathy of newborn",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 42535380,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "21601000119103",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Hypoxic ischemic encephalopathy due to birth trauma",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 372444,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "90224001",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Coma in the newborn",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 374835,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "4069002",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Anoxic brain damage during AND/OR resulting from a procedure",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4040990,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "16561007",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Acute anoxic encephalopathy",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 36674814,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "770664009",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Neonatal brainstem dysfunction",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4306574,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "389089009",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Anoxia of brain",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4171120,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "276638004",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Fetal hypoxia",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4079556,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "277480002",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Neonatal asphyxial encephalopathy",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 42535007,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "134821000119101",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Moderate hypoxic ischemic encephalopathy of newborn",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4306573,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "389088001",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Hypoxia of brain",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4061270,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "16997008",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Neonatal agitation",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 762586,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "429271000124103",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Chronic hypoxic-ischemic brain injury",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4311540,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "85425003",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Intrauterine hypoxia AND/OR birth asphyxia",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4309330,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "213209000",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Cerebral anoxia complication",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4184996,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "413654009",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Birth asphyxia",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 374748,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "126945001",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Perinatal anoxic-ischemic brain injury",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 444292,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "87227007",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Cerebral depression in newborn",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4299090,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "77714001",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Apgar score 0",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4244236,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "38107004",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Apgar score 4",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4319463,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "95633009",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Neonatal hypokinesia",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
-        },
-        {
-          "isExcluded": false,
-          "concept": {
-            "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 377845,
-            "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "389098007",
-            "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Anoxic encephalopathy",
-            "DOMAIN_ID": "Condition",
-            "STANDARD_CONCEPT_CAPTION": "Standard",
-            "CONCEPT_CLASS_ID": "Clinical Finding",
-            "INVALID_REASON": "V"
-          },
-          "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
@@ -1089,17 +519,51 @@
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4171121,
+            "CONCEPT_ID": 4171102,
             "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "276640009",
+            "CONCEPT_CODE": "276570006",
             "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Intrapartum fetal hypoxia",
+            "CONCEPT_NAME": "Perinatal hypoxia and asphyxia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4016469,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "169927001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Apgar at 10 minutes = 4",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 372887,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "81308009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Disorder of brain",
             "DOMAIN_ID": "Condition",
             "STANDARD_CONCEPT_CAPTION": "Standard",
             "CONCEPT_CLASS_ID": "Clinical Finding",
@@ -1112,79 +576,232 @@
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4066137,
+            "CONCEPT_ID": 4016468,
             "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "17258002",
+            "CONCEPT_CODE": "169926005",
             "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Chronic anoxic encephalopathy",
+            "CONCEPT_NAME": "Apgar at 10 minutes = 3",
             "DOMAIN_ID": "Condition",
             "STANDARD_CONCEPT_CAPTION": "Standard",
             "CONCEPT_CLASS_ID": "Clinical Finding",
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4082314,
+            "CONCEPT_ID": 4014471,
             "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "277479000",
+            "CONCEPT_CODE": "169914000",
             "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Postnatal hypoxic encephalopathy",
+            "CONCEPT_NAME": "Apgar at 5 minutes = 4",
             "DOMAIN_ID": "Condition",
             "STANDARD_CONCEPT_CAPTION": "Standard",
             "CONCEPT_CLASS_ID": "Clinical Finding",
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 45766190,
+            "CONCEPT_ID": 4130036,
             "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "703301002",
+            "CONCEPT_CODE": "126944002",
             "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Mild hypoxic ischemic encephalopathy",
+            "CONCEPT_NAME": "Brain damage due to hypoxia",
             "DOMAIN_ID": "Condition",
             "STANDARD_CONCEPT_CAPTION": "Standard",
             "CONCEPT_CLASS_ID": "Clinical Finding",
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 377980,
+            "CONCEPT_ID": 4016054,
             "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "4952001",
+            "CONCEPT_CODE": "169911008",
             "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Cerebral irritability in newborn",
+            "CONCEPT_NAME": "Apgar at 5 minutes = 1",
             "DOMAIN_ID": "Condition",
             "STANDARD_CONCEPT_CAPTION": "Standard",
             "CONCEPT_CLASS_ID": "Clinical Finding",
             "INVALID_REASON": "V"
           },
           "includeMapped": false,
-          "includeDescendants": false
+          "includeDescendants": true
         },
         {
           "isExcluded": false,
           "concept": {
             "INVALID_REASON_CAPTION": "Valid",
-            "CONCEPT_ID": 4170448,
+            "CONCEPT_ID": 4014308,
             "STANDARD_CONCEPT": "S",
-            "CONCEPT_CODE": "275367000",
+            "CONCEPT_CODE": "169912001",
             "VOCABULARY_ID": "SNOMED",
-            "CONCEPT_NAME": "Intrauterine hypoxia",
+            "CONCEPT_NAME": "Apgar at 5 minutes = 2",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4088036,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "24388001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Apgar score 5",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4311540,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "85425003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Intrauterine hypoxia AND/OR birth asphyxia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4299090,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "77714001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Apgar score 0",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4171120,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "276638004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Fetal hypoxia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4306573,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "389088001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Hypoxia of brain",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4014309,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "169915004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Apgar at 5 minutes = 5",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4244236,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "38107004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Apgar score 4",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4290019,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "37145001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Central nervous system dysfunction in newborn",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35622915,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "765151006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Asphyxiophilia",
             "DOMAIN_ID": "Condition",
             "STANDARD_CONCEPT_CAPTION": "Standard",
             "CONCEPT_CLASS_ID": "Clinical Finding",
@@ -1194,8 +811,71 @@
           "includeDescendants": false
         }
       ]},
-      "name": "[PhePheb] HIE - Encephalopathy (broad)",
-      "id": 2
+      "name": "[PhePheb] HIE - Encephalopathy possibly due to hypoxia (broad)",
+      "id": 5
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 435371,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "386689009",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Hypothermia",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[PhePheb] HIE - condn occurrence Hypothermia",
+      "id": 6
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 4296384,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "386329003",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Treatment of hypothermia",
+          "DOMAIN_ID": "Procedure",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Procedure",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[PhePheb] HIE - Rx of Hypothermia",
+      "id": 7
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 3020891,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "8310-5",
+          "VOCABULARY_ID": "LOINC",
+          "CONCEPT_NAME": "Body temperature",
+          "DOMAIN_ID": "Measurement",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Observation",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[PhePheb] HIE -Body Temperature Measurement",
+      "id": 8
     }
   ],
   "EndStrategy": {"DateOffset": {
@@ -1205,38 +885,238 @@
   "cdmVersionRange": ">=5.0.0",
   "CensoringCriteria": [],
   "AdditionalCriteria": {
-    "CriteriaList": [{
-      "RestrictVisit": false,
-      "StartWindow": {
-        "UseEventEnd": false,
-        "Start": {"Coeff": -1},
-        "End": {
-          "Days": 0,
-          "Coeff": -1
+    "CriteriaList": [
+      {
+        "RestrictVisit": false,
+        "StartWindow": {
+          "UseEventEnd": false,
+          "Start": {"Coeff": -1},
+          "End": {
+            "Days": 0,
+            "Coeff": 1
+          },
+          "UseIndexEnd": true
         },
-        "UseIndexEnd": true
-      },
-      "IgnoreObservationPeriod": false,
-      "EndWindow": {
-        "UseEventEnd": false,
-        "Start": {
-          "Days": 0,
-          "Coeff": 1
+        "IgnoreObservationPeriod": false,
+        "EndWindow": {
+          "UseEventEnd": false,
+          "Start": {
+            "Days": 0,
+            "Coeff": -1
+          },
+          "End": {"Coeff": 1},
+          "UseIndexEnd": false
         },
-        "End": {"Coeff": 1},
-        "UseIndexEnd": false
+        "Criteria": {"ConditionOccurrence": {
+          "ConditionTypeExclude": false,
+          "CodesetId": 3
+        }},
+        "Occurrence": {
+          "Type": 2,
+          "IsDistinct": false,
+          "Count": 1
+        }
       },
-      "Criteria": {"ProcedureOccurrence": {
-        "CodesetId": 1,
-        "ProcedureTypeExclude": false
-      }},
-      "Occurrence": {
-        "Type": 2,
-        "IsDistinct": false,
-        "Count": 1
+      {
+        "RestrictVisit": false,
+        "StartWindow": {
+          "UseEventEnd": false,
+          "Start": {"Coeff": -1},
+          "End": {
+            "Days": 0,
+            "Coeff": 1
+          },
+          "UseIndexEnd": true
+        },
+        "IgnoreObservationPeriod": false,
+        "EndWindow": {
+          "UseEventEnd": false,
+          "Start": {
+            "Days": 0,
+            "Coeff": -1
+          },
+          "End": {"Coeff": 1},
+          "UseIndexEnd": false
+        },
+        "Criteria": {"ProcedureOccurrence": {
+          "CodesetId": 1,
+          "ProcedureTypeExclude": false
+        }},
+        "Occurrence": {
+          "Type": 2,
+          "IsDistinct": false,
+          "Count": 1
+        }
+      },
+      {
+        "RestrictVisit": false,
+        "StartWindow": {
+          "UseEventEnd": false,
+          "Start": {"Coeff": -1},
+          "End": {
+            "Days": 0,
+            "Coeff": 1
+          },
+          "UseIndexEnd": true
+        },
+        "IgnoreObservationPeriod": false,
+        "EndWindow": {
+          "UseEventEnd": false,
+          "Start": {
+            "Days": 0,
+            "Coeff": -1
+          },
+          "End": {"Coeff": 1},
+          "UseIndexEnd": false
+        },
+        "Criteria": {"ConditionOccurrence": {
+          "ConditionTypeExclude": false,
+          "CodesetId": 4
+        }},
+        "Occurrence": {
+          "Type": 2,
+          "IsDistinct": false,
+          "Count": 1
+        }
+      },
+      {
+        "RestrictVisit": false,
+        "StartWindow": {
+          "UseEventEnd": false,
+          "Start": {"Coeff": -1},
+          "End": {
+            "Days": 0,
+            "Coeff": -1
+          },
+          "UseIndexEnd": true
+        },
+        "IgnoreObservationPeriod": false,
+        "EndWindow": {
+          "UseEventEnd": false,
+          "Start": {
+            "Days": 0,
+            "Coeff": 1
+          },
+          "End": {"Coeff": 1},
+          "UseIndexEnd": false
+        },
+        "Criteria": {"ConditionOccurrence": {
+          "CorrelatedCriteria": {
+            "CriteriaList": [
+              {
+                "RestrictVisit": false,
+                "StartWindow": {
+                  "UseEventEnd": false,
+                  "Start": {"Coeff": -1},
+                  "End": {
+                    "Days": 0,
+                    "Coeff": 1
+                  },
+                  "UseIndexEnd": true
+                },
+                "IgnoreObservationPeriod": false,
+                "EndWindow": {
+                  "UseEventEnd": true,
+                  "Start": {
+                    "Days": 0,
+                    "Coeff": 1
+                  },
+                  "End": {"Coeff": 1},
+                  "UseIndexEnd": false
+                },
+                "Criteria": {"ConditionOccurrence": {
+                  "ConditionTypeExclude": false,
+                  "CodesetId": 6
+                }},
+                "Occurrence": {
+                  "Type": 2,
+                  "IsDistinct": false,
+                  "Count": 1
+                }
+              },
+              {
+                "RestrictVisit": false,
+                "StartWindow": {
+                  "UseEventEnd": false,
+                  "Start": {"Coeff": -1},
+                  "End": {
+                    "Days": 0,
+                    "Coeff": 1
+                  },
+                  "UseIndexEnd": false
+                },
+                "IgnoreObservationPeriod": false,
+                "EndWindow": {
+                  "UseEventEnd": true,
+                  "Start": {
+                    "Days": 0,
+                    "Coeff": 1
+                  },
+                  "End": {"Coeff": 1},
+                  "UseIndexEnd": false
+                },
+                "Criteria": {"ProcedureOccurrence": {
+                  "CodesetId": 7,
+                  "ProcedureTypeExclude": false
+                }},
+                "Occurrence": {
+                  "Type": 2,
+                  "IsDistinct": false,
+                  "Count": 1
+                }
+              },
+              {
+                "RestrictVisit": false,
+                "StartWindow": {
+                  "UseEventEnd": false,
+                  "Start": {"Coeff": -1},
+                  "End": {
+                    "Days": 0,
+                    "Coeff": 1
+                  },
+                  "UseIndexEnd": false
+                },
+                "IgnoreObservationPeriod": false,
+                "EndWindow": {
+                  "UseEventEnd": true,
+                  "Start": {
+                    "Days": 0,
+                    "Coeff": 1
+                  },
+                  "End": {"Coeff": 1},
+                  "UseIndexEnd": false
+                },
+                "Criteria": {"Measurement": {
+                  "MeasurementTypeExclude": false,
+                  "CodesetId": 8,
+                  "ValueAsNumber": {
+                    "Op": "bt",
+                    "Extent": 34.5,
+                    "Value": 25
+                  }
+                }},
+                "Occurrence": {
+                  "Type": 2,
+                  "IsDistinct": false,
+                  "Count": 4
+                }
+              }
+            ],
+            "Type": "ANY",
+            "DemographicCriteriaList": [],
+            "Groups": []
+          },
+          "ConditionTypeExclude": false,
+          "CodesetId": 5
+        }},
+        "Occurrence": {
+          "Type": 2,
+          "IsDistinct": false,
+          "Count": 1
+        }
       }
-    }],
-    "Type": "ALL",
+    ],
+    "Type": "ANY",
     "DemographicCriteriaList": [],
     "Groups": []
   },
@@ -1244,7 +1124,7 @@
   "InclusionRules": [{
     "expression": {
       "CriteriaList": [],
-      "Type": "ALL",
+      "Type": "ANY",
       "DemographicCriteriaList": [{"Age": {
         "Op": "bt",
         "Extent": 0.020000000000000000416334,
@@ -1252,12 +1132,13 @@
       }}],
       "Groups": []
     },
-    "name": "age < 1"
+    "name": "0< age < approx 7d"
   }],
   "PrimaryCriteria": {
     "CriteriaList": [{"VisitOccurrence": {
       "CodesetId": 0,
-      "VisitTypeExclude": false
+      "VisitTypeExclude": false,
+      "First": true
     }}],
     "PrimaryCriteriaLimit": {"Type": "First"},
     "ObservationWindow": {

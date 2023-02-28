@@ -361,6 +361,27 @@
       }]},
       "name": "[PhePheb] HIE - HIE only",
       "id": 3
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 374748,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "126945001",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Perinatal anoxic-ischemic brain injury",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      }]},
+      "name": "[PhePheb] HIE - Perinatal anoxic BI",
+      "id": 4
     }
   ],
   "EndStrategy": {"DateOffset": {
@@ -409,7 +430,7 @@
           "Start": {"Coeff": -1},
           "End": {
             "Days": 0,
-            "Coeff": 1
+            "Coeff": -1
           },
           "UseIndexEnd": true
         },
@@ -418,14 +439,14 @@
           "UseEventEnd": false,
           "Start": {
             "Days": 0,
-            "Coeff": -1
+            "Coeff": 1
           },
           "End": {"Coeff": 1},
           "UseIndexEnd": false
         },
-        "Criteria": {"ProcedureOccurrence": {
-          "CodesetId": 1,
-          "ProcedureTypeExclude": false
+        "Criteria": {"ConditionOccurrence": {
+          "ConditionTypeExclude": false,
+          "CodesetId": 4
         }},
         "Occurrence": {
           "Type": 2,
@@ -434,24 +455,65 @@
         }
       }
     ],
-    "Type": "ALL",
+    "Type": "ANY",
     "DemographicCriteriaList": [],
     "Groups": []
   },
   "QualifiedLimit": {"Type": "First"},
-  "InclusionRules": [{
-    "expression": {
-      "CriteriaList": [],
-      "Type": "ANY",
-      "DemographicCriteriaList": [{"Age": {
-        "Op": "bt",
-        "Extent": 0.02,
-        "Value": 0
-      }}],
-      "Groups": []
+  "InclusionRules": [
+    {
+      "expression": {
+        "CriteriaList": [],
+        "Type": "ANY",
+        "DemographicCriteriaList": [{"Age": {
+          "Op": "bt",
+          "Extent": 0.020000000000000000416334,
+          "Value": 0
+        }}],
+        "Groups": []
+      },
+      "name": "0< age < approx 7d"
     },
-    "name": "0< age < approx 7d"
-  }],
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {"Coeff": -1},
+            "End": {
+              "Days": 0,
+              "Coeff": -1
+            },
+            "UseIndexEnd": true
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "End": {"Coeff": 1},
+            "UseIndexEnd": false
+          },
+          "Criteria": {"ProcedureOccurrence": {
+            "CodesetId": 1,
+            "ProcedureTypeExclude": false
+          }},
+          "Occurrence": {
+            "Type": 2,
+            "IsDistinct": false,
+            "Count": 1
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": []
+      },
+      "name": "Induction of hypothermia"
+    }
+  ],
   "PrimaryCriteria": {
     "CriteriaList": [{"VisitOccurrence": {
       "CodesetId": 0,

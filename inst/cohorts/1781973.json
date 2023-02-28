@@ -47,25 +47,44 @@
       "id": 0
     },
     {
-      "expression": {"items": [{
-        "isExcluded": false,
-        "concept": {
-          "INVALID_REASON_CAPTION": "Valid",
-          "CONCEPT_ID": 45766189,
-          "STANDARD_CONCEPT": "S",
-          "CONCEPT_CODE": "703300001",
-          "VOCABULARY_ID": "SNOMED",
-          "CONCEPT_NAME": "Hypoxic ischemic encephalopathy",
-          "DOMAIN_ID": "Condition",
-          "STANDARD_CONCEPT_CAPTION": "Standard",
-          "CONCEPT_CLASS_ID": "Clinical Finding",
-          "INVALID_REASON": "V"
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45766189,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "703300001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Hypoxic ischemic encephalopathy",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
         },
-        "includeMapped": false,
-        "includeDescendants": true
-      }]},
-      "name": "[PhePheb] HIE - HIE only",
-      "id": 1
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 374748,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "126945001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Perinatal anoxic-ischemic brain injury",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        }
+      ]},
+      "name": "[PhePheb] HIE - HIE OR Perinatal Anoxic Ischemic BI",
+      "id": 7
     }
   ],
   "EndStrategy": {"DateOffset": {
@@ -98,7 +117,7 @@
       },
       "Criteria": {"ConditionOccurrence": {
         "ConditionTypeExclude": false,
-        "CodesetId": 1
+        "CodesetId": 7
       }},
       "Occurrence": {
         "Type": 2,
@@ -106,7 +125,7 @@
         "Count": 1
       }
     }],
-    "Type": "ALL",
+    "Type": "ANY",
     "DemographicCriteriaList": [],
     "Groups": []
   },
@@ -118,7 +137,7 @@
         "Type": "ALL",
         "DemographicCriteriaList": [{"Age": {
           "Op": "bt",
-          "Extent": 0.02,
+          "Extent": 1,
           "Value": 0
         }}],
         "Groups": []
@@ -133,8 +152,8 @@
             "UseEventEnd": false,
             "Start": {"Coeff": -1},
             "End": {
-              "Days": 0,
-              "Coeff": -1
+              "Days": 30,
+              "Coeff": 1
             },
             "UseIndexEnd": false
           },
@@ -150,19 +169,19 @@
           },
           "Criteria": {"ConditionOccurrence": {
             "ConditionTypeExclude": false,
-            "CodesetId": 1
+            "CodesetId": 7
           }},
           "Occurrence": {
             "Type": 2,
             "IsDistinct": false,
-            "Count": 3
+            "Count": 2
           }
         }],
-        "Type": "ALL",
+        "Type": "ANY",
         "DemographicCriteriaList": [],
         "Groups": []
       },
-      "name": "3 HIE condition occurrences within 30 d of index"
+      "name": "second HIE or Perinatal Anoxic BI condition occurrence within 30 d of index"
     }
   ],
   "PrimaryCriteria": {
